@@ -22,7 +22,8 @@ const AppLayoutUI = ({ children }: PropsWithChildren) => {
         overflow: "hidden",
         display: "flex",
         bgcolor: theme.palette.background.default,
-        gap: { xs: 1, sm: 1.5 },
+        // gap: { xs: 1, sm: 1.5 },
+        gap: 1,
         p: { xs: 1, sm: 1.5 },
         "@supports (height: 100dvh)": {
           height: "100dvh",
@@ -69,7 +70,7 @@ const AppLayoutUI = ({ children }: PropsWithChildren) => {
           flexDirection: "column",
           border: "1px solid",
           borderColor: "divider",
-          borderRadius: { xs: 1, sm: 2 },
+          borderRadius: "8px",
           bgcolor: "background.paper",
         }}
       >

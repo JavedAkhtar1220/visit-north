@@ -73,13 +73,6 @@ const sharedOptions = {
   shape: {
     borderRadius: 8,
   },
-  shadows: [
-    "none",
-    "0px 1px 3px rgba(0,0,0,0.08)",
-    "0px 4px 12px rgba(0,0,0,0.12)",
-    "0px 8px 24px rgba(0,0,0,0.16)",
-    // ...pad out to 25 entries (MUI requires a full shadows array)
-  ] as any,
   breakpoints: {
     values: {
       xs: 0,
@@ -97,38 +90,33 @@ export function appTheme(mode: ColorMode, language: string = "en"): Theme {
   const isUrdu = language === "ur";
   const palette = mode === "dark" ? darkPalette : lightPalette;
 
-  return createTheme(
-    {
-      palette,
-      ...sharedOptions,
+  return createTheme({
+    palette,
+    ...sharedOptions,
+    typography: {
+      fontSize: 14,
+      fontFamily:
+        isArabic || isUrdu
+          ? "'Noto Sans Arabic', sans-serif"
+          : "'Manrope', sans-serif",
     },
-    {
-      typography: {
-        fontSize: 12,
-        fontFamily:
-          isArabic || isUrdu
-            ? "'Noto Sans Arabic', sans-serif"
-            : "'Poppins', sans-serif",
-      },
-      components: {
-        MuiCssBaseline: {
-          styleOverrides: {
-            html: {
-              minHeight: "-webkit-fill-available",
-            },
-            body: {
-              boxSizing: "border-box",
-              // use palette-driven colors instead of hardcoding
-              backgroundColor: palette.background.default,
-              color: palette.text.primary,
-              fontFamily:
-                isArabic || isUrdu
-                  ? "'Tajawal', sans-serif"
-                  : "'Poppins', sans-serif",
-            },
+    components: {
+      MuiCssBaseline: {
+        styleOverrides: {
+          html: {
+            minHeight: "-webkit-fill-available",
+          },
+          body: {
+            boxSizing: "border-box",
+            backgroundColor: palette.background.default,
+            color: palette.text.primary,
+            fontFamily:
+              isArabic || isUrdu
+                ? "'Tajawal', sans-serif"
+                : "'Manrope', sans-serif",
           },
         },
       },
     },
-  );
+  });
 }
