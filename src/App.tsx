@@ -1,24 +1,16 @@
-import { Typography } from "@mui/material";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { Outlet } from "react-router";
 import AppLayout from "./app-layout/AppLayout";
-import PageLayout from "./app-layout/PageLayout";
+
+const queryClient = new QueryClient();
 
 function App() {
   return (
-    <AppLayout>
-      <PageLayout title="My App">
-        <Typography
-          sx={{
-            fontSize: 88,
-            fontFamily: "Space Grotesk",
-          }}
-        >
-          123,1232
-        </Typography>
-        {Array.from({ length: 100 }).map((_, index) => (
-          <Typography key={index}>Content {index + 1}</Typography>
-        ))}
-      </PageLayout>
-    </AppLayout>
+    <QueryClientProvider client={queryClient}>
+      <AppLayout>
+        <Outlet />
+      </AppLayout>
+    </QueryClientProvider>
   );
 }
 

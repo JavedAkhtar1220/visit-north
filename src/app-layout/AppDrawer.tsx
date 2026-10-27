@@ -6,6 +6,7 @@ import {
   SwipeableDrawer,
   // Typography,
 } from "@mui/material";
+import LogoSeekho from "@/assets/seekho.svg";
 // import { useNavigate } from "react-router";
 import useIsDesktopScreen from "@/hooks/useIsDesktopScreen";
 import useIsMobileScreen from "@/hooks/useIsMobileScreen";
@@ -129,11 +130,11 @@ export default function AppDrawer() {
         <Box
           component="img"
           sx={{
-            width: 68,
+            width: 80,
           }}
-          src={"LogoILearn"}
-          alt="I Learn Tutors"
-          title="I Learn Tutors"
+          src={LogoSeekho}
+          alt="Seekho"
+          title="Seekho"
         />
       </Box>
 

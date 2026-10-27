@@ -4,68 +4,68 @@ import { createTheme } from "@mui/material/styles";
 export type ColorMode = "light" | "dark";
 
 // ---------- Light theme ----------
-const lightPalette = {
+export const lightPalette = {
   mode: "light" as const,
   primary: {
-    main: "#287C74",
-    shade1: "#1F5F59",
-    shade2: "#3B948A",
+    main: "#F05A57",
+    shade1: "#D83F3C",
+    shade2: "#FF807C",
   },
   secondary: {
-    main: "#FF9F01",
-    shade1: "#D97E00",
-    shade2: "#FFB84D",
+    main: "#58B8F6",
+    shade1: "#1877B8",
+    shade2: "#A5DEFF",
   },
   background: {
-    default: "#FAFAFB",
+    default: "#F9FAFC",
     paper: "#FFFFFF",
   },
   text: {
-    main: "#111111",
-    primary: "#111111",
-    secondary: "#555555",
-    shade1: "#111111",
-    shade2: "#444444",
-    shade3: "#666666",
-    shade4: "#888888",
-    shade5: "#AAAAAA",
+    main: "#192A3B",
+    primary: "#192A3B",
+    secondary: "#526274",
+    shade1: "#192A3B",
+    shade2: "#34465A",
+    shade3: "#526274",
+    shade4: "#778698",
+    shade5: "#9BA8B5",
   },
   button: {
-    primary: "#287C74",
-    secondary: "#FF9F01",
+    primary: "#D83F3C",
+    secondary: "#1877B8",
   },
 };
 
 // ---------- Dark theme ----------
-const darkPalette = {
+export const darkPalette = {
   mode: "dark" as const,
   primary: {
-    main: "#2FA69B", // lightened teal — #287C74 fails contrast on dark bg
-    shade1: "#287C74",
-    shade2: "#4CC0B4",
+    main: "#FF807C",
+    shade1: "#F05A57",
+    shade2: "#FFAAA7",
   },
   secondary: {
-    main: "#FFB84D", // lightened amber for dark bg
-    shade1: "#FF9F01",
-    shade2: "#FFCB80",
+    main: "#79C8FA",
+    shade1: "#58B8F6",
+    shade2: "#B5E5FF",
   },
   background: {
-    default: "#121212", // MUI/Google Material dark base, never pure black
-    paper: "#1E1E1E",
+    default: "#111B28",
+    paper: "#1B2A3A",
   },
   text: {
-    main: "#E8E8E8", // near-white, not pure #FFF — reduces halation
-    primary: "#E8E8E8",
-    secondary: "#A0A0A0",
-    shade1: "#E8E8E8",
-    shade2: "#B0B0B0",
-    shade3: "#909090",
-    shade4: "#707070",
-    shade5: "#555555",
+    main: "#F4F7FA",
+    primary: "#F4F7FA",
+    secondary: "#B9C5D1",
+    shade1: "#F4F7FA",
+    shade2: "#DCE5ED",
+    shade3: "#B9C5D1",
+    shade4: "#93A3B3",
+    shade5: "#708193",
   },
   button: {
-    primary: "#2FA69B",
-    secondary: "#FFB84D",
+    primary: "#FF807C",
+    secondary: "#79C8FA",
   },
 };
 
@@ -97,7 +97,7 @@ export function appTheme(mode: ColorMode, language: string = "en"): Theme {
       fontSize: 14,
       fontFamily:
         isArabic || isUrdu
-          ? "'Noto Sans Arabic', sans-serif"
+          ? "'Noto Nastaliq Urdu', sans-serif"
           : "'Manrope', sans-serif",
     },
     components: {
@@ -112,7 +112,7 @@ export function appTheme(mode: ColorMode, language: string = "en"): Theme {
             color: palette.text.primary,
             fontFamily:
               isArabic || isUrdu
-                ? "'Tajawal', sans-serif"
+                ? "'Noto Nastaliq Urdu', sans-serif"
                 : "'Manrope', sans-serif",
           },
         },

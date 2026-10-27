@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import useIsMobileScreen from "@/hooks/useIsMobileScreen";
 import ThemeModeToggle from "@/theme/ThemeModeToggle";
 import { useDrawer } from "./DrawerContext";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 interface AppBarProps {
   title: ReactNode;
@@ -80,6 +81,7 @@ export default function AppBar({ title, TopRightComponent }: AppBarProps) {
       <Box sx={{ display: "flex", gap: 1, alignItems: "center" }}>
         {TopRightComponent}
         <ThemeModeToggle />
+        <LanguageSwitcher />
       </Box>
     </Stack>
   );

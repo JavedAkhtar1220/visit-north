@@ -1,0 +1,83 @@
+{
+  "logout.label": "Logout",
+
+  "page_titles": {
+    "dashboard": "Dashboard",
+    "lesson_planner": "Lesson Planner",
+    "student_progress": "Students Progress",
+    "assignments": "Assignments",
+    "live_tutoring": "Live Tutoring",
+    "schedule": "Schedule",
+    "chat": "Chat",
+    "setting": "Account & Billing",
+    "learning_hub": "Learning Hub",
+    "learning_hub.assignment_help": "Assignment Help",
+    "study_materials": "Study Materials",
+    "gamification": "Gamification",
+    "student_tools": "Students Tools",
+    "leaderboard": "Leaderboard",
+    "reading": "Reading",
+    "reading_practice": "Reading Practice",
+    "tutor_updates": "Tutor Updates",
+    "progress_reports": "Progress Reports",
+    "set_password": "Set Password"
+  },
+
+  "sidebar": {
+    "tutor": {
+      "dashboard": "Dashboard",
+      "lesson_planner": "Lesson Planner",
+      "student_progress": "Students Progress",
+      "assignments": "Assignments",
+      "live_tutoring": "Live Tutoring",
+      "schedule": "Schedule",
+      "chat": "Chat",
+      "setting": "Account & Billing"
+    },
+    "student": {
+      "dashboard": "Dashboard",
+      "learning_hub": "Learning Hub",
+      "learning_hub.assignment_help": "Assignment Help",
+      "learning_hub.superpower": "Superpower",
+      "learning_hub.interactive_lessons": "Interactive Lessons",
+      "study": "Study Materials",
+      "study.little_learners": "Little Learners",
+      "study.worksheets": "Worksheets",
+      "study.visual_learning": "Visual Learning",
+      "study.language_worksheets": "Language Worksheets",
+      "study.practice_exercises": "Practice Exercises",
+      "study.study_materials": "Study Materials",
+      "study.courses": "Courses",
+      "study.reading_practice": "Reading Practice",
+      "gamification": "Gamification",
+      "gamification.quizzes": "Quizzes",
+      "gamification.games": "Games",
+      "live_tutoring": "Live Tutoring",
+      "live_tutoring.find_sessions": "Find Sessions",
+      "live_tutoring.book_sessions": "Book Sessions",
+      "live_tutoring.my_sessions": "My Sessions",
+      "live_tutoring.video_call": "Live Video Call",
+      "live_tutoring.request_live_tutor": "Request Live Tutor",
+      "student_tools": "Students Tools",
+      "student_tools.homework_upload": "Homework Upload",
+      "student_tools.messages": "Messages",
+      "student_tools.accessibility": "Accessibility Setup",
+      "student_tools.calendar": "Calendar",
+      "leaderboard": "Leaderboard",
+      "literacy": "Read Along",
+      "reading": "Reading",
+      "setting": "Account & Billing",
+      "setting.subscription_plan": "Subscription Plan",
+      "setting.payment_history": "Payment History",
+      "setting.support_education": "Support Education"
+    },
+    "parent": {
+      "dashboard": "Dashboard",
+      "tutor_updates": "Tutor Updates",
+      "progress_reports": "Progress Reports",
+      "schedule": "Schedule",
+      "chat": "Chat",
+      "setting": "Account & Billing"
+    }
+  }
+}

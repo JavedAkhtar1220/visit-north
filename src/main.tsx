@@ -10,6 +10,8 @@ import appRoutes from "./routes/routes.tsx";
 import RtlProvider from "./theme/RtlPlugin.tsx";
 import ThemeWrapper from "./theme/ThemeWrapper";
 
+import "@/i18n";
+
 const root = document.getElementById("root");
 
 if (!root) {
