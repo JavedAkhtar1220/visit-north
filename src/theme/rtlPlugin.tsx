@@ -14,7 +14,7 @@ const ltrCache = createCache({
   key: "mui",
 });
 
-export function RtlProvider(props: { children: React.ReactNode }) {
+export default function RtlProvider(props: { children: React.ReactNode }) {
   const { i18n } = useTranslation();
   const isRtl =
     i18n.language == "ar" || i18n.language == "ur" || i18n.language == "ar-MA";

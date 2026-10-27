@@ -1,0 +1,83 @@
+{
+  "logout.label": "لاگ آؤٹ",
+
+  "page_titles": {
+    "dashboard": "ڈیش بورڈ",
+    "lesson_planner": "سبق کا منصوبہ ساز",
+    "student_progress": "طلباء کی پیشرفت",
+    "assignments": "اسائنمنٹس",
+    "live_tutoring": "لائیو ٹیوشن",
+    "schedule": "شیڈول",
+    "chat": "چیٹ",
+    "setting": "اکاؤنٹ اور بلنگ",
+    "learning_hub": "لرننگ ہب",
+    "learning_hub.assignment_help": "اسائنمنٹ کی مدد",
+    "study_materials": "مطالعہ کا مواد",
+    "gamification": "گیمیفیکیشن",
+    "student_tools": "طلباء کے آلات",
+    "leaderboard": "لیڈر بورڈ",
+    "reading": "پڑھنا",
+    "reading_practice": "پڑھنے کی مشق",
+    "tutor_updates": "ٹ্যutor اپ ڈیٹس",
+    "progress_reports": "پیشرفت کی رپورٹس",
+    "set_password": "پاس ورڈ سیٹ کریں"
+  },
+
+  "sidebar": {
+    "tutor": {
+      "dashboard": "ڈیش بورڈ",
+      "lesson_planner": "سبق کا منصوبہ ساز",
+      "student_progress": "طلباء کی پیشرفت",
+      "assignments": "اسائنمنٹس",
+      "live_tutoring": "لائیو ٹیوشن",
+      "schedule": "شیڈول",
+      "chat": "چیٹ",
+      "setting": "اکاؤنٹ اور بلنگ"
+    },
+    "student": {
+      "dashboard": "ڈیش بورڈ",
+      "learning_hub": "لرننگ ہب",
+      "learning_hub.assignment_help": "اسائنمنٹ کی مدد",
+      "learning_hub.superpower": "سپر پاور",
+      "learning_hub.interactive_lessons": "انٹرایکٹو اسباق",
+      "study": "مطالعہ کا مواد",
+      "study.little_learners": "ننھے سیکھنے والے",
+      "study.worksheets": "ورک شیٹس",
+      "study.visual_learning": "بصری سیکھنا",
+      "study.language_worksheets": "زبان کی ورک شیٹس",
+      "study.practice_exercises": "مشقی سوالات",
+      "study.study_materials": "مطالعہ کا مواد",
+      "study.courses": "کورسز",
+      "study.reading_practice": "پڑھنے کی مشق",
+      "gamification": "گیمیفیکیشن",
+      "gamification.quizzes": "کوئزز",
+      "gamification.games": "گیمز",
+      "live_tutoring": "لائیو ٹیوشن",
+      "live_tutoring.find_sessions": "سیشنز تلاش کریں",
+      "live_tutoring.book_sessions": "سیشن بک کریں",
+      "live_tutoring.my_sessions": "میرے سیشنز",
+      "live_tutoring.video_call": "لائیو ویڈیو کال",
+      "live_tutoring.request_live_tutor": "لائیو ٹیوٹر کی درخواست کریں",
+      "student_tools": "طلباء کے آلات",
+      "student_tools.homework_upload": "ہوم ورک اپ لوڈ",
+      "student_tools.messages": "پیغامات",
+      "student_tools.accessibility": "آسان رسائی کی سیٹنگز",
+      "student_tools.calendar": "کیلنڈر",
+      "leaderboard": "لیڈر بورڈ",
+      "literacy": "ساتھ ساتھ پڑھیں",
+      "reading": "پڑھنا",
+      "setting": "اکاؤنٹ اور بلنگ",
+      "setting.subscription_plan": "سبسکرپشن پلان",
+      "setting.payment_history": "ادائیگی کی تاریخ",
+      "setting.support_education": "تعلیم کی حمایت کریں"
+    },
+    "parent": {
+      "dashboard": "ڈیش بورڈ",
+      "tutor_updates": "ٹیوٹر اپ ڈیٹس",
+      "progress_reports": "پیشرفت کی رپورٹس",
+      "schedule": "شیڈول",
+      "chat": "چیٹ",
+      "setting": "اکاؤنٹ اور بلنگ"
+    }
+  }
+}

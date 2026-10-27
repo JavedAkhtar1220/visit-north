@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510" height="130" viewBox="0 0 510 130" role="img" aria-label="Seekho horizontal logo light"><title>Seekho — horizontal — light</title><g transform="translate(13 17) scale(1)">
+ <path d="M12 31 C24 25 37 26 49 33 L49 76 C36 68 24 68 12 74 Z" fill="#F05A57"/>
+ <path d="M88 31 C76 25 63 26 51 33 L51 76 C64 68 76 68 88 74 Z" fill="#58B8F6"/>
+ <path d="M50 35 L50 79" stroke="#F05A57" stroke-width="3" stroke-linecap="round"/>
+ <path d="M8 78 C25 73 37 76 50 83 C63 76 75 73 92 78" fill="none" stroke="#F05A57" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M50 7 L53.9 17.1 L64 21 L53.9 24.9 L50 35 L46.1 24.9 L36 21 L46.1 17.1 Z" fill="#FFCF56"/>
+ <circle cx="72" cy="13" r="4" fill="#FFCF56"/>
+ </g><text x="128" y="91" font-family="Manrope, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="-4" fill="#192A3B">seekho</text></svg>

@@ -13,6 +13,7 @@ const appRoutes = (
   //   <Route path="/" element={<App />} errorElement={<ErrorBoundary />}>
   <Route path="/" element={<App />} errorElement={<div>Error</div>}>
     {/* Common Authenticated Routes  */}
+    <Route path="/dashboard" lazy={() => import("@/pages/student/dashboard")} />
     <Route path="*" element={<ComingSoon />} />
   </Route>
 );

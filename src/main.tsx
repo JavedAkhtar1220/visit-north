@@ -1,15 +1,16 @@
+import { CssBaseline } from "@mui/material";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css";
-import { CssBaseline } from "@mui/material";
 import {
   createBrowserRouter,
   createRoutesFromElements,
   RouterProvider,
 } from "react-router";
 import appRoutes from "./routes/routes.tsx";
-import { RtlProvider } from "./theme/rtlPlugin.tsx";
-import ThemeWrapper from "./theme/ThemeWrapper.tsx";
+import RtlProvider from "./theme/RtlPlugin.tsx";
+import ThemeWrapper from "./theme/ThemeWrapper";
+
+import "@/i18n";
 
 const root = document.getElementById("root");
 
